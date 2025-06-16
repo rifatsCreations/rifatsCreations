@@ -1,50 +1,58 @@
-# Hi, I'm Rifat Hossain 👋
-
-🚀 .NET DEVELOPER | Full-Stack Learner
-
-🌱 Currently exploring ASP.NET Core, Angular, and React to build modern, scalable applications.  
-🎤 Passionate about sharing knowledge and helping others grow through learning.  
-💬 With expertise in .NET development, I bridge the gap between design and functionality.  
-📸 I also enjoy **mobile photography and videography** as a creative outlet.
+<h1 align="center">👋 Hi, I'm Rifat Hossain</h1>
+<h3 align="center">🚀 .NET Developer | Full-Stack Learner</h3>
 
 ---
 
-## 🧠 About Me
+### 🌱 Currently Exploring
+- ASP.NET Core | Angular | React
+- Cross-platform, modern, scalable apps
 
-I'm a dedicated and enthusiastic .NET developer, currently exploring the world of cross-platform applications using ASP.NET Core, Angular, and React.  
-I love solving problems through code, and I'm passionate about learning modern technologies and building real-world solutions.
-
----
-
-## 💼 Skills Overview
-
-| 🧑‍💻 Languages | 🧩 Frameworks & Runtimes | 🎨 Front-end         | 🗄️ Database     | 🛠️ Tools             | 🌐 Web Tech           |
-|---------------|--------------------------|----------------------|------------------|-----------------------|------------------------|
-| C#            | ASP.NET MVC, Core        | Angular, React       | MS SQL Server    | Visual Studio, VS Code| JSON, XML, AJAX        |
-| JavaScript    | Entity Framework, ADO.NET| Bootstrap, jQuery    |                  | Git & GitHub, Postman | WebSockets, Socket.IO  |
-| HTML5, CSS3   | Node.js, Express.js      | EJS                  |                  | Crystal Reports, Figma|                        |
+### 💡 Passionate About
+- Building clean, maintainable applications  
+- Bridging UI/UX with strong backend logic  
+- Mobile photography & creative storytelling 🎥
 
 ---
 
-## 🔧 Other Skills
+## 🧠 Skills
 
-- OOP, Repository Pattern, Factory Pattern  
-- RESTful API, LINQ, Session Management  
-- Report Generation (Crystal Reports), Authentication & Authorization  
-- 📱 Mobile Photography & Videography (Creative Side)
+```bash
+💻 Languages:        C#, JavaScript, SQL  
+🧩 Frameworks:       ASP.NET MVC/Core, EF, ADO.NET, Node.js  
+🎨 Frontend:         HTML5, CSS3, Bootstrap, Angular, React  
+🗄️ Database:        MS SQL Server  
+🛠️ Tools:           Visual Studio, VS Code, Git, Postman  
+📄 Reports:          Crystal Reports, Figma  
 
----
+## 😂 Developer's Humor
 
-## 🎯 Vision
+> "Code is like humor. When you have to explain it, it's bad." – Cory House
 
-I aim to become a full-stack developer capable of creating impactful software that enhances user experience and solves real-life problems.  
-I'm constantly growing, learning, and striving for excellence in every project I build.
+```csharp
+using System;
 
----
+namespace HumorInCode
+{
+    class Program
+    {
+        static void Main()
+        {
+            var joke = TellAJoke();
 
-## ☕ Connect With Me
+            if (string.IsNullOrEmpty(joke))
+            {
+                Console.WriteLine("Oops! If I have to explain the joke... it's already ruined! 😅");
+            }
+            else
+            {
+                Console.WriteLine($"Here’s a joke: {joke}");
+            }
+        }
 
-📧 Email: mrifat621@gmail.com
-
-
-> “Code is like humor. When you have to explain it, it’s bad.” – Cory House
+        static string TellAJoke()
+        {
+            // The joke is already in the code
+            return "Why do programmers prefer dark mode? Because light attracts bugs!";
+        }
+    }
+}
